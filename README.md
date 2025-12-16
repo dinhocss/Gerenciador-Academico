@@ -8,7 +8,7 @@ Gerenciador Acadêmico - Sistema para gestão de alunos e turmas da UFF.
 3. Execute 'mvn spring-boot:run'.
 
 ## Checklist de Desenvolvimento:
-* [] Cadastro de Alunos
-* [] Listagem de Turmas
-* [] Login e Segurança
-* [x] Configuração do Projeto
+ [] Cadastro de Alunos
+ [] Listagem de Turmas
+ [] Login e Segurança
+ [x] Configuração do Projeto
