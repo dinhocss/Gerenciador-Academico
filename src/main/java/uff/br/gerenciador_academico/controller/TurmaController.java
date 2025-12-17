@@ -21,7 +21,7 @@ public class TurmaController {
         return ResponseEntity.ok(turmaService.recuperarTurmas());
     }
 
-    @GetMapping("/{id")
+    @GetMapping("/{id}")
     public ResponseEntity<Turma> recuperarPorId(@PathVariable Long id){
         return turmaService.recuperarTurmas().stream()
                 .filter(t -> t.getId().equals(id))
